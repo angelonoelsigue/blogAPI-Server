@@ -20,7 +20,7 @@ mongoose.connection.once("open", () => console.log("We're connected to the cloud
 app.use(express.json());
 
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://blog-app-client-wheat.vercel.app/login'],
+    origin: ['http://localhost:3000', 'https://blog-app-client-wheat.vercel.app'],
     credentials: true,
     optionsSuccessStatus: 200
 }
